@@ -14,10 +14,11 @@ export default function Navbar() {
       <ul>
         {/* Add a link to the "Contact" page */}
         <CustomLink to="/contact">Get in Touch</CustomLink>
-        <CustomLink to="/projects">Projects</CustomLink>
+        {/* <CustomLink to="/projects">Projects</CustomLink> */}
         {/* Add a link to the "About" page */}
         <CustomLink to="/about">Home</CustomLink>
         <CustomLink to="/resume">resume</CustomLink>
+        <CustomLink to="/projects">Projects</CustomLink>
       </ul>
     </nav>
   )

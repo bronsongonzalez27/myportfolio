@@ -4,7 +4,7 @@ import ContactPage from "./pages/Contact"
 import HomePage from "./pages/Home"
 import AboutPage from "./pages/Home"; 
 import ResumePage from "./pages/Resume"; 
-
+import ProjectsPage from "./pages/Projects";
 
 import { Route, Routes } from "react-router-dom"
 
@@ -26,6 +26,7 @@ function App() {
           {/* Display the About page when the URL is "/about" */}
           <Route path="/about" element={<AboutPage />} />
           <Route path="/resume" element={<ResumePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
       </div>
     </>
