@@ -13,7 +13,7 @@ export default function Navbar() {
       {/* Create a list of links */}
       <ul>
         {/* Add a link to the "Contact" page */}
-        <CustomLink to="/Home">Get in Touch</CustomLink>
+        <CustomLink to="/home">Get in Touch</CustomLink>
      
         {/* Add a link to the "About" page */}
         <CustomLink to="/about">About Me</CustomLink>

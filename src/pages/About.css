@@ -1,7 +1,9 @@
 .Profilepic {
     display: flex;
-    width: 400px; 
-    height: 1200px; 
-  
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    width: 150px;
+    height: 450px;
+    margin: 0 auto; /* Center horizontally using margin */
   }
   
