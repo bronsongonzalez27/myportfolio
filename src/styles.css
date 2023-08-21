@@ -1,6 +1,6 @@
 /* Navbar styles */
 .nav {
-    background-color: #333;
+    background-color: #8A897C;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -44,3 +44,6 @@
     color: #ffd700;
   }
   
+  body{
+    background-color: #353535;
+  }
