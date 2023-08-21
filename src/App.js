@@ -3,6 +3,7 @@ import Navbar from "./Navbar"
 import ContactPage from "./pages/Contact"
 import HomePage from "./pages/Home"
 import AboutPage from "./pages/Home"; 
+import ResumePage from "./pages/Resume"; 
 
 
 import { Route, Routes } from "react-router-dom"
@@ -20,10 +21,11 @@ function App() {
         <Routes>
           {/* Display the Home page when the URL is "/" */}
           <Route path="/" element={<HomePage />} />
-          {/* Display the Contact page when the URL is "/pricing" */}
+          {/* Display the Contact page when the URL is "/contact" */}
           <Route path="/contact" element={<ContactPage />} />
           {/* Display the About page when the URL is "/about" */}
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
         </Routes>
       </div>
     </>
