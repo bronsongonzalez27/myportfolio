@@ -1,0 +1,46 @@
+/* Navbar styles */
+.nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Title styles */
+  .Portfolio-title {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* List styles */
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Link styles */
+  .active {
+    background-color: #555;
+  }
+  
+  li {
+    padding: 5px 10px;
+  }
+  
+  /* Link text styles */
+  Link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Hover effect */
+  Link:hover {
+    color: #ffd700;
+  }
+  

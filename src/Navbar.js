@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="nav">
       {/* Create a link to the portfolio with a title */}
       <Link to="Bronson Gonzalez" className="Portfolio-title">
-        My Portfolio
+   
       </Link>
       {/* Create a list of links */}
       <ul>
