@@ -8,12 +8,12 @@ export default function Navbar() {
     <nav className="nav">
       {/* Create a link to the portfolio with a title */}
       <Link to="Bronson Gonzalez" className="Portfolio-title">
- 
+   <a href=''></a>
       </Link>
       {/* Create a list of links */}
       <ul>
         {/* Add a link to the "Contact" page */}
-        <CustomLink to="/home">Get in Touch</CustomLink>
+        <CustomLink to="/contact">Get in Touch</CustomLink>
      
         {/* Add a link to the "About" page */}
         <CustomLink to="/about">About Me</CustomLink>

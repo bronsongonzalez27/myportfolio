@@ -19,7 +19,7 @@ function App() {
           {/* Display the Home page when the URL is "/" */}
           <Route path="/" element={<HomePage />} />
           {/* Display the Contact page when the URL is "/pricing" */}
-          <Route path="/pricing" element={<ContactPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           {/* Display the About page when the URL is "/about" */}
           <Route path="/about" element={<AboutPage />} />
         </Routes>
