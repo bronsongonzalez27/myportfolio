@@ -14,9 +14,9 @@ export default function Navbar() {
       <ul>
         {/* Add a link to the "Contact" page */}
         <CustomLink to="/contact">Get in Touch</CustomLink>
-     
+        <CustomLink to="/Home">Projects</CustomLink>
         {/* Add a link to the "About" page */}
-        <CustomLink to="/about">About Me</CustomLink>
+        <CustomLink to="/about">Home</CustomLink>
       </ul>
     </nav>
   )
