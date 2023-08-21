@@ -8,8 +8,9 @@ export default function Contact() {
 <ul>
 <li>My phone! 3852273626</li>
 <li>My email! Jaspyyy@icloud.com</li>
-<a href="https://www.linkedin.com/in/bronson-gonzalez-327135266/"></a>
-<a href="https://github.com/bronsongonzalez27"></a>
+<li><a href="https://www.linkedin.com/in/bronson-gonzalez-327135266/">My Linked in!</a></li>
+<a href="https://twitter.com/witch_val">My twitter!</a>
+<a href="https://github.com/bronsongonzalez27">My github!</a>
 
 
 </ul>
