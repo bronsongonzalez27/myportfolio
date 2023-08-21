@@ -15,8 +15,10 @@ export default function Contact() {
 </ul>
 {/* form to submit email */}
 <form>
-  <input type = "text" id="name" placeholder="Name "></input>
-  <input type = "text" id="Email" placeholder="Email"></input>
+  <textarea id ="ContactMessage" rows="10" Placeholder="Enter Your Message Here!"></textarea>
+  <input type = "text" id="name" placeholder="Name " required></input>
+  <input type = "text" id="Email" placeholder="Email" required></input>
+  
   <button type="submit">Contact</button>
 </form>
 
