@@ -14,7 +14,7 @@ export default function Navbar() {
       <ul>
         {/* Add a link to the "Contact" page */}
         <CustomLink to="/contact">Get in Touch</CustomLink>
-        {/* <CustomLink to="/projects">Projects</CustomLink> */}
+     
         {/* Add a link to the "About" page */}
         <CustomLink to="/about">Home</CustomLink>
         <CustomLink to="/resume">resume</CustomLink>
@@ -31,7 +31,7 @@ function CustomLink({ to, children, ...props }) {
     const resolvedPath = useResolvedPath(to);
     
     // Check if the link's path matches the current page's path
-    // The link should match the whole path, not just a part
+   
     const isActive = useMatch({ path: resolvedPath.pathname, end: true });
     
     // Create the link with a possible "active" style
