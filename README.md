@@ -9,3 +9,6 @@ This application is a react portfolio displaying all of my current work and prev
 
 ## installation instructions
 To use and install, clone the repository, do npm i and then npm run build and lastly, npm start
+
+## deployment link!
+https://bronsongonzalez27.github.io/myportfolio/
